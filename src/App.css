@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:700");
+
+:root {
+  font-size: calc(1vw + 1vh - 0.4vmin);
+  --blackColor: rgb(0, 0, 100);
+  --whiteColor: rgb(255, 255, 255);
+  --greyColor: rgb(229, 229, 229);
+  --yellowColor: rgb(238, 255, 1);
+  --blueColor: rgb(0, 1, 251);
+  --pinkColor: rgb(234, 20, 141);
+  --greenColor: rgb(4, 255, 4);
+}
+
+body,
+html {
+  display: grid;
+  background-color: var(--greyColor);
+  font-family: "Roboto Mono", monospace;
+  color: var(--blackColor);
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--blackColor);
+  border-bottom: 0.1rem solid var(--blackColor);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  border-bottom: 0.1rem solid var(--greenColor);
+  color: var(--pinkColor);
+  text-decoration: none;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 46rem;
+  padding: 3rem 1rem 0 1rem;
+}
+
+.title-wrapper h1 {
+  font-size: 1.9rem;
+  color: var(--blueColor);
+  text-transform: uppercase;
+  background-color: var(--greyColor);
+  padding: 1rem 0.2rem;
+  -webkit-box-shadow: 0.5rem 0.5rem 0.5rem var(--blueColor);
+  box-shadow: 0.5rem 0.5rem 0.5rem var(--blueColor);
+}
+
+span.bigger {
+  font-size: 280%;
+  padding: 0 1.1rem;
+  background-color: var(--yellowColor);
+}
+
+span.big {
+  font-size: 200%;
+  color: var(--yellowColor);
+  background-color: var(--pinkColor);
+  padding: 0 1rem;
+  line-height: 6.4rem;
+}
+
+span.box-border {
+  font-size: 89%;
+  color: var(--pinkColor);
+  padding: 0.3rem 0.6rem 0.3rem 0.5rem;
+  border: 0.3rem solid var(--greenColor);
+}
+
+span.line-around {
+  font-size: 150%;
+  color: var(--blackColor);
+  margin: 0;
+  padding: 0 0.6rem 0 0.5rem;
+  background-color: var(--whiteColor);
+  border: 0.3rem solid var(--blackColor);
+}
+
+
+.media
+{
+    width: 800px; 
+    height: 500px; 
+    float: left;
+    display: inline-block;
+    overflow-x: auto;
+    -ms-overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-y: hidden;
+    white-space: nowrap;
+  
+
+  
+
+}
+
+.image img
+{
+  
+  grid-column: 1;
+  grid-row: 1 / -1;      /* from first line at start, to first line at end */
+  align-self: center;    /* vertical centering */
+  width: 800px;
+ 
+}
+
+.image
+{
+ 
+  display: grid;         /* new; nested grid container */
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  border: 10px solid black;
+}
+.imageContainer
+{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center; 
+  grid-row-gap: 50px;
+  
+  
+  
+  
+  
+}
+
+
+.block {
+  display: inline-block;
+    margin-right: 6px;
+}
+
+
+.clear{
+  clear: both; 
+
+}
+
+
+nav{
+
+display: flex;
+justify-content: space-around;
+align-items:  center;
+min-height: 10vh;
+background: rgb(0, 1, 251);
+color: white;
+
+}
+.nav-links{
+
+width: 50%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+
+}
