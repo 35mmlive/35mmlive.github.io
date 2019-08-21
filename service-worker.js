@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/35mmlive.github.io/precache-manifest.56f4d5b5c070c68d0c7e1b18935349f9.js"
+  "/35mmlive.github.io/precache-manifest.108ac78f43418e0bfd0a6e64fa075b29.js"
 );
 
 self.addEventListener('message', (event) => {
