@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/35mmlive/static/css/main.44279ff1.chunk.css",
+    "main.js": "/35mmlive/static/js/main.efa54ff3.chunk.js",
+    "main.js.map": "/35mmlive/static/js/main.efa54ff3.chunk.js.map",
+    "runtime~main.js": "/35mmlive/static/js/runtime~main.0f950f86.js",
+    "runtime~main.js.map": "/35mmlive/static/js/runtime~main.0f950f86.js.map",
+    "static/js/2.d86e522c.chunk.js": "/35mmlive/static/js/2.d86e522c.chunk.js",
+    "static/js/2.d86e522c.chunk.js.map": "/35mmlive/static/js/2.d86e522c.chunk.js.map",
+    "index.html": "/35mmlive/index.html",
+    "precache-manifest.8bb19e71eb211ddfcf0d41ff9e473fb4.js": "/35mmlive/precache-manifest.8bb19e71eb211ddfcf0d41ff9e473fb4.js",
+    "service-worker.js": "/35mmlive/service-worker.js",
+    "static/css/main.44279ff1.chunk.css.map": "/35mmlive/static/css/main.44279ff1.chunk.css.map"
+  }
+}
